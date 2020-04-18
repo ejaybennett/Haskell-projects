@@ -1,0 +1,35 @@
+-First-order imperative language
+-Builds and traverses labeled graphs
+-Statically typed programs
+-snapshotting graphs to graphviz
+
+Eg building graph
+
+nlabel l : Int default 0;
+elabel g : Bool defalult False
+
+node x;
+node y;
+edge e : x-> y;
+x.l = 5;
+e.g = True;
+
+fun name(x : Node, depth : Int) : Nothing
+{
+	if x.d=0 then {
+	
+}
+}
+
+Types:
+-Label types are not allowed to be used as types in GraMa programs unless where nlabel or elabel is declared
+
+Expressions and Statements
+-Statements can have expressions, expressions cannot have statements
+-Function calls that return nothing are statements, with calls are
+
+Statements:
+-Each file should be a statement
+-Statements cannot have nested functions
+Types of statements
+->DeclNode, DeclEdge, DeclVar
